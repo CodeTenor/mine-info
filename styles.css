@@ -1,0 +1,109 @@
+.country {
+    position: fixed;
+    text-align: center; 
+}
+
+.country img{
+    width: 60%;
+}
+
+#western-cape {
+    position: fixed;
+    left: 30%;
+    top: 85%;
+}
+
+#north-west {
+    position: fixed;
+    top: 35%;
+    left: 52%;
+}
+
+#northern-cape {
+    position: fixed;
+    top: 55%;
+    left: 35%;
+}
+
+#freestate {
+    position: fixed;
+    top: 48%;
+    left: 55%;
+}
+
+#gauteng {
+    position: fixed;
+    top: 28%;
+    left: 61%;
+}
+
+#kwazulu-natal {
+    position: fixed;
+    top: 52%;
+    left: 70%;
+}
+
+#eastern-cape {
+    position: fixed;
+    top: 74%;
+    left: 55%;
+}
+
+#mpumalanga {
+    position: fixed;
+    top: 31%;
+    left: 68%;
+}
+
+#limpopo {
+    position: fixed;
+    top: 8%;
+    left: 66%;
+}
+
+/* modal */
+ /* The Modal (background) */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+
+  /* maps */
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }

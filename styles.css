@@ -8,62 +8,14 @@ html, body {
     text-align: center; 
 }
 
-.country img{
-    width: 60%;
+.south-africa-map{
+    padding-left: 36%;
+    padding-top: 5%;
 }
 
-#wc {
-    position: fixed;
-    left: 30%;
-    top: 85%;
-}
-
-#nw {
-    position: fixed;
-    top: 35%;
-    left: 52%;
-}
-
-#nc {
-    position: fixed;
-    top: 55%;
-    left: 35%;
-}
-
-#fs {
-    position: fixed;
-    top: 48%;
-    left: 55%;
-}
-
-#gp {
-    position: fixed;
-    top: 28%;
-    left: 61%;
-}
-
-#kzn {
-    position: fixed;
-    top: 52%;
-    left: 70%;
-}
-
-#ec {
-    position: fixed;
-    top: 74%;
-    left: 55%;
-}
-
-#mp {
-    position: fixed;
-    top: 31%;
-    left: 68%;
-}
-
-#lmp {
-    position: fixed;
-    top: 8%;
-    left: 66%;
+a path:hover {
+    fill: red;
+    cursor: pointer;
 }
 
 /* modal */
@@ -120,6 +72,13 @@ html, body {
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
+  }
+
+  .map-message {
+    z-index: 999;
+    position: fixed;
+    padding-left: 28%;
+    padding-top: 10%;
   }
 
   /* gallery */

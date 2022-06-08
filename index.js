@@ -4,7 +4,7 @@ var modal = document.getElementById("myModal");
 var apiKey = "AIzaSyDTt2trMUQAMQ3Xw5qUjmo6MjiPRA3P7rc";
 
 // Get the button that opens the modal
-var btns = document.querySelectorAll("button[type=button]");  
+var btns = document.querySelectorAll("a[type=button]");  
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -352,5 +352,17 @@ function initMap(id) {
       });
 
       window.initMap = initMap;
+
+      // showMapMarkerMessage();
+
+      //setTimeout(clearMapMarkerMessage(), 1000);
   }
 }
+
+// function clearMapMarkerMessage() {
+//   document.getElementById("map-message").style.display = "none"
+// }
+
+// function showMapMarkerMessage() {
+//   document.getElementById("map-message").style.display = "block"
+// }
